@@ -4,19 +4,6 @@ import re # module for regular expression activities
 import getpass # invisible password in terminal
 import sys
 
-# This script is to list the linkedin viewers for your profile
-# Thanks to Prudhvi Pentakota for sharing this idea
-# Thanks to Sujay Gankidi for validating the script and output.
-# It's a web scraping, it might not work, if linkedin changes the code or
-# Linkedin may block your IP too. So, don't run this script more often
-# You can better use Linkedin developer API, if that allows you to view the list without being a paid member.
-# AUTHOR: Sanjeev Jaiswal
-# VERSION: 1.2
-
-# This script will ask creds if you pass online in argument,
-# If you have opted for offline in argument then
-# It will ask for file in txt format containing page-source of view-source:https://www.linkedin.com/me/profile-views/urn:li:wvmp:summary/
-# (login first and open this url and save the contents in txt format)
 
 def get_info_online():
     # Ask user to type username and password
